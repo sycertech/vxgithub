@@ -24,7 +24,7 @@ export async function comment(env: Env, type: IssueCommentParent, { id, org, rep
 
 	return returnMessage(
 		createMessage(env, {
-			title: `New PR Comment`,
+			title: `New ${type === IssueCommentParent.PullRequest ? 'PR' : 'Issue'} Comment`,
 			description: escapeHtml(content),
 			url: comment.html_url,
 			authorName: user.name ? `${user.name} (@${user.login.toLowerCase()})` : `@${user.login.toLowerCase()}`,
