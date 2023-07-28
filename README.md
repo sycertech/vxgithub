@@ -2,7 +2,6 @@
 	<p style="margin-bottom: 0px">
 		<a href="https://github.com/carterhimmel/vxgithub"><img src="/.github/assets/pr_review.png" width="70%" alt="vxgithub demo" /></a>
 	</p>
-	<br>
 	<h2 style="margin-top: 0px">vxgithub</h2>
 	<h3>Better embeds for GitHub links on Discord (and Telegram!)</h3>
 	<a href="https://github.com/sycertech/vxgithub/actions/workflows/ci.yml"><img alt="Test status" src="https://github.com/sycertech/vxgithub/actions/workflows/ci.yml/badge.svg"></a>
