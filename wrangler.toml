@@ -1,4 +1,3 @@
 name = "vxgithub"
 main = "src/worker.ts"
 compatibility_date = "2023-05-18"
-account_id = "3f8e66251ee0f2fba9a454fb96c845e8"
