@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "vxgithub",
+	"version": "0.1.0",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"start": "wrangler dev",
+		"lint": "prettier --check . && eslint src --ext mjs,js,ts,tsx --format=pretty",
+		"format": "prettier --write . && eslint src --ext mjs,js,ts,tsx --fix --format=pretty",
+		"build:ci": "tsc --noEmit"
+	},
+	"dependencies": {
+		"common-tags": "^1.8.2"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20230724.0",
+		"@octokit/types": "^11.1.0",
+		"@types/common-tags": "^1",
+		"eslint": "^8.45.0",
+		"eslint-config-neon": "^0.1.47",
+		"eslint-formatter-pretty": "^5.0.0",
+		"itty-router": "^4.0.14",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6",
+		"wrangler": "^3.4.0"
+	},
+	"packageManager": "yarn@4.0.0-rc.48"
+}
