@@ -15,7 +15,7 @@ export async function discussion(env: Env, { id, org, repo, prNumber, hash }: Re
 
 	return returnMessage(
 		createMessage(env, {
-			title: `New PR Comment`,
+			title: `New PR Review Comment`,
 			description: escapeHtml(content),
 			url: comment.html_url,
 			authorName: user.name ? `${user.name} (@${user.login.toLowerCase()})` : `@${user.login.toLowerCase()}`,
@@ -28,7 +28,7 @@ export async function discussion(env: Env, { id, org, repo, prNumber, hash }: Re
 }
 
 /**
- * The function for a PR review comment.
+ * The function for a PR review.
  * https://github.com/$owner/$repo/pull/$pull_number#pullrequestreview-$review_id
  */
 export async function pullRequestReview(env: Env, { id, org, repo, prNumber }: Record<string, string>) {
