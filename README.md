@@ -17,9 +17,9 @@ For example:
 + https://vxgithub.com/$org/$repo/issues/$issue_number/issuecomment-$comment_id
 ```
 
-> **Note**:  
+> [!NOTE]  
 > The fragment isn't passed to the server, so you have to replace it with a `/` yourself.  
-> See [RFC 3986 3.5: Fragment](https://datatracker.ietf.org/doc/html/rfc3986#section-3.5) for more information.
+> See [RFC 3986 3.5: Fragment](https://datatracker.ietf.org/doc/html/rfc3986#section-3.5) for more information.  
 
 ## Roadmap
 
