@@ -1,3 +1,7 @@
 name = "vxgithub"
 main = "src/worker.ts"
 compatibility_date = "2023-05-18"
+
+[vars]
+DOMAIN = "vxgithub.com"
+ROOT_REDIRECT = "https://github.com/sycertech/vxgithub#readme"
