@@ -1,10 +1,9 @@
 <div align="center">
-	<br>
-	<p>
+	<p style="margin-bottom: 0px">
 		<a href="https://github.com/carterhimmel/vxgithub"><img src="/.github/assets/pr_review.png" width="70%" alt="vxgithub demo" /></a>
 	</p>
 	<br>
-	<h2 style="padding-top: 0%">vxgithub</h2>
+	<h2 style="margin-top: 0px">vxgithub</h2>
 	<h3>Better embeds for GitHub links on Discord (and Telegram!)</h3>
 	<a href="https://github.com/sycertech/vxgithub/actions/workflows/ci.yml"><img alt="Test status" src="https://github.com/sycertech/vxgithub/actions/workflows/ci.yml/badge.svg"></a>
 </div>
@@ -26,7 +25,7 @@ For example:
 
 > [!NOTE]  
 > The fragment isn't passed to the server, so you have to replace it with a `/` yourself.  
-> See [RFC 3986 3.5: Fragment](https://datatracker.ietf.org/doc/html/rfc3986#section-3.5) for more information.  
+> See [RFC 3986 3.5: Fragment](https://datatracker.ietf.org/doc/html/rfc3986#section-3.5) for more information.
 
 ## Roadmap
 
